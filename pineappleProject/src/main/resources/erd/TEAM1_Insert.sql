@@ -32,7 +32,7 @@ VALUES (COUPON_COUPON_NO_SEQ.nextval,'5% 할인쿠폰','F123456','5','전자제�
 
 
 --CUSTOMER_COUPONS insert
-insert into customer_coupons VALUES(CUSTOMER_COUPONS_CUSTOMER_COUPONS_NO_SEQ.nextval,'2024/09/30', '사용불가',1,1);
+insert into customer_coupons VALUES(CUSTOMER_COUPONS_CUSTOMER_COUPONS_NO_SEQ.nextval,'2024/10/30', '사용가능',1,1);
 insert into customer_coupons VALUES(CUSTOMER_COUPONS_CUSTOMER_COUPONS_NO_SEQ.nextval,'2024/09/30', '사용불가',2,2);
 insert into customer_coupons VALUES(CUSTOMER_COUPONS_CUSTOMER_COUPONS_NO_SEQ.nextval,'2024/10/31', '사용가능',3,3);
 insert into customer_coupons VALUES(CUSTOMER_COUPONS_CUSTOMER_COUPONS_NO_SEQ.nextval,'2024/10/31', '사용가능',4,4);
@@ -49,93 +49,136 @@ insert into customer_coupons VALUES(CUSTOMER_COUPONS_CUSTOMER_COUPONS_NO_SEQ.nex
 --핸드폰, 노트북, 패드, 워치, 이어폰, 악세서리
 
 --핸드폰
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이폰14','950000','phone','dp_iphone_14','phone14 description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이폰15','1090000','phone','dp_iphone_15','phone15 description','OOS');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이폰16','1250000','phone','dp_iphone_16','phone16 description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이폰14','960000','phone','iPhone14_detail.jpg','phone14 description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이폰15','1400000','phone','iPhone15_detail.jpg','phone15 description','OOS');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이폰16','1900000','phone','iPhone16_detail.jpg','phone16 description','active');
 
 --노트북
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'맥북 에어','12500000','laptop','dp_laptop_air','air description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'맥북 프로','22500000','laptop','dp_laptop_pro','pro description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'맥북 에어','2160000','laptop','macbookAir_detail.jpg','air description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'맥북 프로','2640000','laptop','macbookAir_detail.jpg','pro description','active');
 
 --패드
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이패드','1250000','pad','dp_pad_basic','basic pad description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이패드 에어','1250000','pad','dp_pad_air','air pad description','OOS');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이패드 프로','1250000','pad','dp_pad_pro','pro pad description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이패드','872000','pad','iPad_detail.jpg','basic pad description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이패드 에어','1163000','pad','iPadAir_detail.jpg','air pad description','OOS');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이패드 프로','1939000','pad','iPadPro_detail.jpg','pro pad description','active');
 
 --워치
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이워치','1250000','watch','dp_watch_basic','iwatch description','OOS');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이워치 SE','1250000','watch','dp_watch_SE','iwatch SE description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'아이워치 Ultra','1250000','watch','dp_watch_Ultra','iwatch Ultra description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'애플워치','639000','watch','appleWatch_detail.jpg','iwatch description','OOS');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'애플워치 SE','312000','watch','appleWatchSe_detail.jpg','iwatch SE description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'애플워치 Ultra','1091000','watch','appleWatchUltra_detail.jpg','iwatch Ultra description','active');
 
 --이어폰
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'에어팟','1250000','earphone','dp_airpod_basic','airpod description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'에어팟 프로','1250000','earphone','dp_airpod_pro','airpod pro description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'에어팟 맥스','1250000','earphone','dp_airpod_max','airpod max description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'에어팟','300000','earphone','airpod_detail.jpg','airpod description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'에어팟 프로','341000','earphone','airpod_detail.jpg','airpod pro description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'에어팟 맥스','745000','earphone','airpodPro_detail.jpg','airpod max description','active');
 
 --악세서리
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'USB C-type','1250000','accessories','dp_USB_C-type','USB C-type description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'매직 키보드','1250000','accessories','dp_magickeyboard','magickeyboard description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'핸드폰 케이스','1250000','accessories','dp_phone_case','phone case description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'워치 밴드','1250000','accessories','dp_watch_band_case','watch band description','active');
-INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'핸드폰 강화필름','1250000','accessories','dp_phone_sp_case','phone screen protector description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'USB C-type','29000','accessories','cable_detail.jpg','USB C-type description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'매직 키보드','229000','accessories','magicKeyboard_detail.jpg','magickeyboard description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'핸드폰 케이스','55000','accessories','case_detail.jpg','phone case description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'워치 밴드','8900','accessories','strap_detail.jpg','watch band description','active');
+INSERT INTO product VALUES (PRODUCT_PRODUCT_NO_SEQ.NEXTVAL,'핸드폰 강화필름','14000','accessories','film_detail.jpg','phone screen protector description','active');
 
 
 --PRODUCT_IMAGE insert
 --핸드폰 사진
-INSERT INTO product_image values (product_image_product_image_no_seq.nextval, 'product_1_image_1', 1);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_1_image_2', 1);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_1_image_3', 1);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_2_image_1', 2);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_2_image_2', 2);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_3_image_1', 3);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_3_image_2', 3);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_3_image_3', 3);
+----아이폰14
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone14(1).jpg', 1);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone14(2).jpg', 1);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone14(3).jpg', 1);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone14(4).jpg', 1);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone14(5).jpg', 1);
+----아이폰15
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone15(1).jpg', 2);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone15(2).jpg', 2);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone15(3).jpg', 2);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone15(4).jpg', 2);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone15(5).jpg', 2);
+----아이폰16
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone16(1).jpg', 3);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone16(2).jpg', 3);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone16(3).jpg', 3);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone16(4).jpg', 3);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPhone16(5).jpg', 3);
 
 --노트북 사진
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_4_image_1', 4);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_4_image_2', 4);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_5_image_1', 5);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_5_image_2', 5);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_5_image_3', 5);
+----맥북에어
+insert into product_image values (product_image_product_image_no_seq.nextval, 'macbookAir(1).jpg', 4);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'macbookAir(2).jpg', 4);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'macbookAir(3).jpg', 4);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'macbookAir(4).jpg', 4);
+----맥북프로
+insert into product_image values (product_image_product_image_no_seq.nextval, 'macbookPro(1).jpg', 5);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'macbookPro(2).jpg', 5);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'macbookPro(3).jpg', 5);
 
 --패드 사진
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_6_image_1', 6);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_6_image_2', 6);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_6_image_3', 6);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_7_image_1', 7);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_7_image_2', 7);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_8_image_1', 8);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_8_image_2', 8);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_8_image_3', 8);
+----아이패드
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPad(1).jpg', 6);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPad(2).jpg', 6);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPad(3).jpg', 6);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPad(4).jpg', 6);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPad(5).jpg', 6);
+----아이패드에어
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPadAir(1).jpg', 7);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPadAir(2).jpg', 7);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPadAir(3).jpg', 7);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPadAir(4).jpg', 7);
+----아이패드프로
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPadPro(1).jpg', 8);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPadPro(2).jpg', 8);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPadPro(3).jpg', 8);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'iPadPro(4).jpg', 8);
 
 --워치 사진
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_9_image_1', 9);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_9_image_2', 9);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_10_image_1', 10);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_10_image_2', 10);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_11_image_1', 11);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_11_image_2', 11);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_11_image_3', 11);
+----애플워치
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatch(1).jpg', 9);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatch(2).jpg', 9);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatch(3).jpg', 9);
+----애플워치SE
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatchSe(1).jpg', 10);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatchSe(2).jpg', 10);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatchSe(3).jpg', 10);
+----애플워치Ultra
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatchUltra(1).jpg', 11);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatchUltra(2).jpg', 11);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'appleWatchUltra(3).jpg', 11);
 
 --이어폰 사진
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_12_image_1', 12);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_13_image_1', 13);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_13_image_2', 13);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_14_image_1', 14);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_14_image_2', 14);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_14_image_3', 14);
+----에어팟
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpod(1).jpg', 12);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpod(2).jpg', 12);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpod(3).jpg', 12);
+----에어팟 프로
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpodPro(1).jpg', 13);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpodPro(2).jpg', 13);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpodPro(3).jpg', 13);
+----에어팟 맥스
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpodMax(1).jpg', 14);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpodMax(2).jpg', 14);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'airpodMax(3).jpg', 14);
 
 --악세서리 사진
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_15_image_1', 15);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_15_image_2', 15);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_16_image_1', 16);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_16_image_2', 16);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_17_image_1', 17);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_17_image_2', 17);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_18_image_1', 18);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_18_image_2', 18);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_19_image_1', 19);
-insert into product_image values (product_image_product_image_no_seq.nextval, 'product_19_image_2', 19);
+----USB C-type
+insert into product_image values (product_image_product_image_no_seq.nextval, 'cable(1).jpg', 15);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'cable(2).jpg', 15);
+----매직키보드
+insert into product_image values (product_image_product_image_no_seq.nextval, 'magicKeyboard(1).jpg', 16);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'magicKeyboard(2).jpg', 16);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'magicKeyboard(3).jpg', 16);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'magicKeyboard(4).jpg', 16);
+----핸드폰케이스
+insert into product_image values (product_image_product_image_no_seq.nextval, 'case(1).jpg', 17);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'case(2).jpg', 17);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'case(3).jpg', 17);
+----워치밴드
+insert into product_image values (product_image_product_image_no_seq.nextval, 'strap(1).jpg', 18);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'strap(2).jpg', 18);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'strap(3).jpg', 18);
+----핸드폰 강화필름
+insert into product_image values (product_image_product_image_no_seq.nextval, 'film(1).jpg', 19);
+insert into product_image values (product_image_product_image_no_seq.nextval, 'film(1).jpg', 19);
+
 
 
 

@@ -263,4 +263,3 @@ ALTER TABLE product_selected ADD CONSTRAINT IDX_product_selected_FK0 FOREIGN KEY
 ALTER TABLE product_selected_detail ADD CONSTRAINT IDX_product_selected_detail_PK PRIMARY KEY (product_selected_detail_no);
 ALTER TABLE product_selected_detail ADD CONSTRAINT IDX_product_selected_detail_FK0 FOREIGN KEY (product_selected_no) REFERENCES product_selected (product_selected_no) ON DELETE CASCADE;
 ALTER TABLE product_selected_detail ADD CONSTRAINT IDX_product_selected_detail_FK1 FOREIGN KEY (product_option_detail_no) REFERENCES product_option_detail (product_option_detail_no) ON DELETE CASCADE;
-
