@@ -12,11 +12,11 @@
 
 ## 📜 프로젝트
 
-- **팀명:** 파인애플
-- **프로젝트 명:** FineAppleStore
-- **프로젝트 기간:** 2024.10.03 - 2025.10.15
-- **배포 링크:** 
-- **팀 문서:** 
+- **팀명:** 통토통토
+- **프로젝트 명:** GREW
+- **프로젝트 기간:** 2024.12.01 - 2025.01.08
+- **배포 링크:** [https://grew.com](https://grew.com)
+- **팀 문서:** [팀 문서 링크](https://docs.grew.com)
 
 ---
 
@@ -25,13 +25,13 @@
   
 |![avatar1](https://github.com/user-attachments/assets/c3f80874-ae53-4c6c-ba25-e1b90b77d3bc)|![avatar2](https://github.com/user-attachments/assets/eae62a00-6bc1-4315-b780-822fb576bd5c)|![avatar3](https://github.com/user-attachments/assets/15ccede9-c932-477b-9a3a-be5bc5e96987)|![avatar4](https://github.com/user-attachments/assets/227dd03d-92a0-41d8-bfae-7c416469b9fa)|
 |:---:|:---:|:---:|:---:|
-| **박한누리** <br> BE/FE 1팀장 <br> [@나문정](https://github.com/imun46)| **나문정** <br> BE/FE 2팀장 <br> [@김진영](https://github.com/Gosem7)| **김기현** <br> BE/FE <br> [@김찬영](https://github.com/kctml2935)| **송대현** <br> BE/FE <br> [@문준형](https://github.com/Cloudorair)|
-| - 팔로우, 신고 <br> - 어드민 <br> - 총괄 | - 웹소켓 <br> - 채팅 <br> - 총괄 | - 리뷰 <br> - 채팅 이미지 <br> - 웹소켓 | - 멘토 프로필 <br> - 멘토 컨텐츠 <br> - 이미지 업로드 |
+| **나문정** <br> BE/FE 1팀장 <br> [@나문정](https://github.com/imun46)| **김진영** <br> BE/FE 2팀장 <br> [@김진영](https://github.com/Gosem7)| **김찬영** <br> BE/FE <br> [@김찬영](https://github.com/kctml2935)| **문준형** <br> BE/FE <br> [@문준형](https://github.com/Cloudorair)|
+| - 파로워, 신고 <br> - 어드미는 <br> - 총관 | - 웹소캬 <br> - 채팅 <br> - 총관 | - 리뷰 <br> - 채팅 이미지 <br> - 웹소쳤 | - 머토 프로필 <br> - 머토 컨텐츠 <br> - 이미지 업로드 |
 
-|![avatar5](https://github.com/user-attachments/assets/974659b9-cfe5-446d-a672-5cfdc85a8e0e)|![avatar6](https://github.com/user-attachments/assets/26b4c2b2-a5d5-401f-8268-9125eb939fd7)|![avatar7](https://github.com/user-attachments/assets/ca27f1f7-ac26-44b3-9658-1aa45edd5cc4)
-|:---:|:---:|:---:|:---:|
-| **임지훈** <br> BE/FE <br> [@박은미](https://github.com/hornheart)| **이민용** <br> BE/FE <br> [@송대현](https://github.com/jonadan0322)| **이도현** <br> BE/FE <br> [@양한수](https://github.com/apk1207)| (https://github.com/ldh9709)|
-| - 어드민 <br> - 권한 관리 <br> - 검색 및 정렬 기능 | - 알림 <br> - 댓글 <br> - 검색 및 정렬 기능 <br> - 좋아요 기능 | - 멘토 컨텐츠 <br> - 이미지 업로드 <br> - 검색 및 정렬 기능 |
+|![avatar5](https://github.com/user-attachments/assets/974659b9-cfe5-446d-a672-5cfdc85a8e0e)|![avatar6](https://github.com/user-attachments/assets/26b4c2b2-a5d5-401f-8268-9125eb939fd7)|![avatar7](https://github.com/user-attachments/assets/bf45b332-4b3b-4f6f-9418-377420dc1b89)|
+|:---:|:---:|:---:|
+| **박은미** <br> BE/FE <br> [@박은미](https://github.com/hornheart)| **송대현** <br> BE/FE <br> [@송대현](https://github.com/jonadan0322)| **이도현** <br> BE/FE <br> [@이도현](https://github.com/ldh9709)|
+| - 어드미는 <br> - 권한 관리 <br> - 검색 및 정렬 기능 | - 알림 <br> - 댓글 <br> - 검색 및 정렬 기능 <br> - 좋아요 기능 | - JWT 인증 및 토큰 관리 <br> - OAuth 로그인 구현 <br> - 회원 관리 <br> - 머토 프로필 |
 
 </div>
 
@@ -39,7 +39,7 @@
 <br/>
 
 ## Architecture Diagram & Stack
-<img src="https://github.com/user-attachments/assets/8bd6d8c8-8ec3-4934-843a-4c5c4ff51efb" alt="아키텍처" width="720" height="540">
+<img src="https://github.com/user-attachments/assets/8bd6d8c8-8ec3-4934-843a-4c5c4ff51efb" alt="아키텍쳐" width="720" height="540">
 
 ### Front-End
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/> <img src="https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black"/>
@@ -60,5 +60,3 @@
 <br/>
 🔗 [ERD 및 아키텍쳐](https://gleaming-random-882.notion.site/ERD-174697bf650d8058b37bdc1006687290)
 <br/>
-
-
