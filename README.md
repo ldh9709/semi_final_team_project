@@ -28,7 +28,7 @@
 | **박한누리** <br> BE/FE 1팀장 <br> [@나문정](https://github.com/imun46)| **나문정** <br> BE/FE 2팀장 <br> [@김진영](https://github.com/Gosem7)| **김기현** <br> BE/FE <br> [@김찬영](https://github.com/kctml2935)| **송대현** <br> BE/FE <br> [@문준형](https://github.com/Cloudorair)|
 | - 팔로우, 신고 <br> - 어드민 <br> - 총괄 | - 웹소켓 <br> - 채팅 <br> - 총괄 | - 리뷰 <br> - 채팅 이미지 <br> - 웹소켓 | - 멘토 프로필 <br> - 멘토 컨텐츠 <br> - 이미지 업로드 |
 
-|![avatar5](https://github.com/user-attachments/assets/974659b9-cfe5-446d-a672-5cfdc85a8e0e)|![avatar6](https://github.com/user-attachments/assets/26b4c2b2-a5d5-401f-8268-9125eb939fd7)|![avatar7](https://github.com/user-attachments/assets/ca27f1f7-ac26-44b3-9658-1aa45edd5cc4)|![avatar8](https://github.com/user-attachments/assets/bf45b332-4b3b-4f6f-9418-377420dc1b89)|
+|![avatar5](https://github.com/user-attachments/assets/974659b9-cfe5-446d-a672-5cfdc85a8e0e)|![avatar6](https://github.com/user-attachments/assets/26b4c2b2-a5d5-401f-8268-9125eb939fd7)|![avatar7](https://github.com/user-attachments/assets/ca27f1f7-ac26-44b3-9658-1aa45edd5cc4)
 |:---:|:---:|:---:|:---:|
 | **임지훈** <br> BE/FE <br> [@박은미](https://github.com/hornheart)| **이민용** <br> BE/FE <br> [@송대현](https://github.com/jonadan0322)| **이도현** <br> BE/FE <br> [@양한수](https://github.com/apk1207)| (https://github.com/ldh9709)|
 | - 어드민 <br> - 권한 관리 <br> - 검색 및 정렬 기능 | - 알림 <br> - 댓글 <br> - 검색 및 정렬 기능 <br> - 좋아요 기능 | - 멘토 컨텐츠 <br> - 이미지 업로드 <br> - 검색 및 정렬 기능 |
